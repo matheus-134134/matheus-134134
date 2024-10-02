@@ -6,7 +6,12 @@ html, body {
 }
 
 /* Classes. */
-.canva canvas {
+.centralizar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.canvas canvas {
   background-color: #ccc;
   height: 500px;
   width: 750px;
